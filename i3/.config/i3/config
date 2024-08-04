@@ -27,7 +27,7 @@ exec --no-startup-id picom --experimental-backends --config ~/.config/picom/pico
 
 exec_always --no-startup-id ~/.config/i3/polybar.sh &
 
-exec --no-startup-id nitrogen --restore
+exec_always feh --bg-fill ~/backgrounds/catppuccin_triangle.png
 
 gaps inner 6
 #gaps outer 6
