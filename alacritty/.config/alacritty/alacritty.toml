@@ -7,7 +7,7 @@ import = [
 ]
 
 [env]
-term = "xterm-256color"
+TERM = "xterm-256color"
 
 [font]
 size = 14
